@@ -7,7 +7,7 @@
             sendBtn = document.getElementById('sendBtn');
 
 
-        navigator.serviceWorker.register('service-worker3.js');
+        navigator.serviceWorker.register('server-worker3.js');
 
 
         navigator.serviceWorker.addEventListener('message', function (event) {
